@@ -1,5 +1,8 @@
+
 main {
+  display: flex;
   margin-top: 60px;
+  flex-direction: column;
 }
 
 main h1 {
@@ -26,4 +29,38 @@ main h3 {
 main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
+}
+img {
+  display: block;
+}
+
+.item {
+  margin: 10px;
+}
+
+.group1{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items:flex-start
+}
+
+.group1 > img {
+  flex: 1;
+}
+
+.group2 {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.group3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  max-width: 400px;
+  margin: 0 10px 0 10px;
 }
